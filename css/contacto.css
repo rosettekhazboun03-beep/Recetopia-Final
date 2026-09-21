@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-img {
+    max-height: 45px;
+    width: auto;
+}
+
+.navigation-links .nav-link {
+    color: #000000 !important;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.navigation-links .nav-link:hover {
+    color: #a3c644 !important;
+}
+
+.navigation-links .nav-link.active-link,
+.navigation-links .nav-link.login-link {
+    color: #a3c644 !important;
+}
+
+.navigation-links .nav-link.login-link:hover {
+    color: #8eb135 !important;
+}
+
+.search-box input {
+    background-color: #a3c644;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    outline: none;
+    font-size: 14px;
+    width: 140px;
+}
+
+.search-box input::placeholder {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.contact-form {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    border-radius: 12px;
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    border-color: #a3c644;
+    box-shadow: 0 0 0 0.25rem rgba(163, 198, 68, 0.25);
+    outline: none;
+}
+
+.contact-form .form-check-input {
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form .form-check-input:checked {
+    background-color: #a3c644;
+    border-color: #a3c644;
+}
+
+.contact-form .form-label,
+.contact-form .form-check-label {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.contact-form .btn-recetopia {
+    background-color: #a3c644;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 12px 24px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form .btn-recetopia:hover {
+    background-color: #8eb135;
+    color: #ffffff;
+    transform: translateY(-2px);
+}

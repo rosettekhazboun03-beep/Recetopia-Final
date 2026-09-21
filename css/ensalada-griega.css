@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fcfcf9;
+    color: #121212;
+}
+
+.logo-img {
+    max-height: 38px;
+    width: auto;
+}
+
+.navigation-links .nav-link {
+    color: #121212 !important;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.navigation-links .nav-link.active,
+.navigation-links .nav-link.login-link,
+.navigation-links .nav-link:hover {
+    color: #a3c644 !important;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    background-color: #a3c644;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 35px 5px 15px;
+    font-size: 13px;
+    color: #ffffff;
+    outline: none;
+    width: 140px;
+}
+
+.search-box input::placeholder {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.search-box i {
+    position: absolute;
+    right: 12px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.categoria-tag-uppercase {
+    color: #a3c644;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.titulo-receta-detalle {
+    font-size: 34px;
+    font-weight: 800;
+    color: #121212;
+    line-height: 1.2;
+}
+
+.meta-receta {
+    font-size: 14px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.meta-receta span {
+    font-weight: 400;
+}
+
+.box-ingredientes {
+    background-color: #a3c644;
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 24px 20px;
+}
+
+.box-ingredientes h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.box-ingredientes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-ingredientes li {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.img-receta-detalle {
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: contain;
+}
+
+.titulo-seccion-preparacion {
+    color: #a3c644;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.lista-preparacion {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-preparacion li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: #121212;
+}
+
+.lista-preparacion li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #121212;
+    font-size: 18px;
+    line-height: 1;
+    top: -1px;
+}
+
+.titulo-seccion-tips {
+    color: #a3c644;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtitulo-tips {
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 2px;
+}
+
+.input-tip-box {
+    position: relative;
+    max-width: 280px;
+}
+
+.input-tip-box input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 45px 8px 16px;
+    font-size: 12px;
+    width: 100%;
+    outline: none;
+}
+
+.input-tip-box .btn-send {
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #a3c644;
+    color: #ffffff;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.avatar-circle {
+    width: 24px;
+    height: 24px;
+    background-color: #a3c644;
+    border-radius: 50%;
+}
+
+.usuario-nombre {
+    color: #a3c644;
+}
+
+.comentario-usuario {
+    font-size: 12.5px;
+    color: #121212;
+}
+

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fcfcf9;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: transparent;
+}
+
+.logo-img {
+    max-height: 45px;
+    width: auto;
+}
+
+.navigation-links .nav-link {
+    color: #121212 !important;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.navigation-links .nav-link.active,
+.navigation-links .nav-link.login-link,
+.navigation-links .nav-link:hover {
+    color: #a3c644 !important;
+}
+
+.search-box input {
+    background-color: #a3c644;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-size: 14px;
+    color: #ffffff;
+    outline: none;
+    width: 130px;
+}
+
+.search-box input::placeholder {
+    color: #ffffff;
+}
+
+.text-verde {
+    color: #a3c644;
+}
+
+.titulo-receta {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #121212;
+}
+
+.box-ingredientes {
+    background-color: #a3c644;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 30px 24px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.box-ingredientes h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.box-ingredientes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box-ingredientes li {
+    font-size: 13px;
+    margin-bottom: 14px;
+    font-weight: 500;
+}
+
+.box-ingredientes li:last-child {
+    margin-bottom: 0;
+}
+
+.img-receta-hero {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+.titulo-seccion-verde {
+    color: #a3c644;
+    font-weight: 700;
+}
+
+.lista-preparacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-preparacion li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 18px;
+    font-size: 15px;
+    color: #121212;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.lista-preparacion li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #121212;
+    border-radius: 50%;
+}
+
+.tip-input-group input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.tip-input-group input:focus {
+    outline: none;
+    background-color: #e8e8e8;
+}
+
+.btn-send-tip {
+    background-color: #a3c644;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-dot {
+    width: 32px;
+    height: 32px;
+    background-color: #a3c644;
+    border-radius: 50%;
+}
+
+footer {
+    border-top: 1px solid #e9ecef;
+}
+
+footer p {
+    font-size: 14px;
+}@charset "utf-8";
+/* CSS Document */
+

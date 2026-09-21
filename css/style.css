@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fcfcf9;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: transparent;
+}
+
+.logo-img {
+    max-height: 45px;
+    width: auto;
+}
+
+.navigation-links .nav-link {
+    color: #121212 !important;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.navigation-links .nav-link.active,
+.navigation-links .nav-link.login-link,
+.navigation-links .nav-link.nav-inicio {
+    color: #a3c644 !important;
+}
+
+.navigation-links .nav-link:hover {
+    color: #a3c644 !important;
+}
+
+.search-box input {
+    background-color: #a3c644;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    width: 140px;
+    transition: all 0.3s ease;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 8px rgba(163, 198, 68, 0.5);
+}
+
+.titulo-hero {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #121212;
+}
+
+.highlight-text {
+    color: #a3c644;
+}
+
+.subtitulo-hero {
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+.btn-recetopia {
+    background-color: #a3c644;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.btn-recetopia:hover {
+    background-color: #8eb332;
+    color: #ffffff;
+}
+
+.hero-img {
+    max-width: 90%;
+    height: auto;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+    margin: 0;
+}
+
+.ver-todos-link {
+    color: #a3c644;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ver-todos-link:hover {
+    color: #8eb332;
+}
+
+.category-card {
+    background-color: #a3c644;
+    color: #ffffff !important;
+    border-radius: 12px;
+    padding: 35px 10px;
+    text-align: center;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.category-card:hover {
+    background-color: #8eb332;
+    transform: translateY(-3px);
+    color: #ffffff !important;
+}
+
+.category-card span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card-body {
+    padding: 16px;
+}
+
+.recipe-card-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #121212;
+    margin: 0;
+}
+
+footer {
+    border-top: 1px solid #e9ecef;
+}
+
+footer p {
+    font-size: 14px;
+}
