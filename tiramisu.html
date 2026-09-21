@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiramisú - Recetopia</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/tiramisu.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent py-3">
+            <div class="container">
+                <a class="navbar-brand me-auto" href="index.html">
+                    <img src="img/recetopia-logo.png" alt="Recetopia Logo" class="img-fluid logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRecetopia">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarRecetopia">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-3 navigation-links">
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active text-decoration-none" href="recetas.html">Recetas</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="sobrenosotros.html">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link login-link text-decoration-none" href="#">Inicia Sesión</a></li>
+                    </ul>
+                    <div class="search-box ms-lg-3 mt-2 mt-lg-0">
+                        <input type="text" placeholder="Buscar...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-3">
+        <div class="container">
+            <span class="categoria-tag-uppercase">Postre</span>
+            <h1 class="titulo-receta-detalle my-1">Tiramisú</h1>
+            <p class="meta-receta mb-4">
+                Tiempo: <span>20 minutos</span> · Dificultad: <span>Fácil</span> · Porciones: <span>6</span>
+            </p>
+
+            <div class="row align-items-center mb-4">
+                <div class="col-12 col-md-5 col-lg-4 mb-3 mb-md-0">
+                    <aside class="box-ingredientes">
+                        <h2>Ingredientes</h2>
+                        <ul>
+                            <li>1 paquete de galletas de vainilla</li>
+                            <li>300g de queso crema o mascarpone</li>
+                            <li>200ml de crema para batir</li>
+                            <li>1/2 taza de café fuerte frío</li>
+                            <li>5 cucharadas de azúcar</li>
+                            <li>1 cucharadita de esencia de vainilla</li>
+                            <li>Cacao en polvo al gusto</li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 text-center">
+                    <img src="img/tiramisu_sin_fondo.webp" alt="Tiramisú con galletas" class="img-fluid img-receta-detalle">
+                </div>
+            </div>
+
+            <section class="mb-4">
+                <h2 class="titulo-seccion-preparacion mb-3">Preparación</h2>
+                <ul class="lista-preparacion">
+                    <li>Mezclar la crema: En un bowl bate el queso crema, el azúcar y la esencia de vainilla. Añade la crema para batir y mezcla bien hasta tener una textura firme.</li>
+                    <li>Remojar las galletas: Pasa las galletas rápidamente por el café frío sin dejarlas ablandar demasiado.</li>
+                    <li>Armar por capas: Coloca una capa de galletas en el fondo del molde y cubre con la crema preparada. Repite otra capa igual.</li>
+                    <li>Refrigerar y espolvorear: Refrigera durante al menos 2 horas y espolvorea abundante cacao en polvo encima antes de servir.</li>
+                </ul>
+            </section>
+
+            <hr class="my-4 opacity-25">
+
+            <section>
+                <h2 class="titulo-seccion-tips mb-1">Tips de nuestra comunidad</h2>
+                <p class="subtitulo-tips">Descubre recetas, combinaciones y secretos compartidos por otros amantes de la cocina. ¿Tienes una secreto de cocina?</p>
+                <p class="fw-bold fs-6 mb-3">Compártelo con la comunidad.</p>
+
+                <div class="input-tip-box mb-4">
+                    <input type="text" placeholder="Comparte tu tip aquí">
+                    <button class="btn-send"><i class="fa-solid fa-play"></i></button>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                        <div class="avatar-circle"></div>
+                        <span class="fw-bold fs-6 usuario-nombre">Gabriel G.</span>
+                    </div>
+                    <p class="comentario-usuario ms-4">
+                        Toma bastane esfuerzo en hacerlo pero realmente vale la pena para una noche romantica o simplemente quieras algo dulce mas tarde
+                    </p>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex align-items-center gap-2 mb-1">
+                        <div class="avatar-circle"></div>
+                        <span class="fw-bold fs-6 usuario-nombre">Karla T.</span>
+                    </div>
+                    <p class="comentario-usuario ms-4">
+                        Estas van grandiosas despues de una velada elegante
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="py-4 mt-4">
+        <div class="container text-center text-muted">
+            <p class="mb-0">© Recetopia - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
